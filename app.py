@@ -25,6 +25,14 @@ st.markdown(
         div[data-baseweb="select"] div {
             color: black !important;
         }
+         div[data-baseweb="select"] > div {
+            color: black !important;
+        }
+
+       
+        ul[role="listbox"] li {
+            color: black !important;
+        }
 
         .stMarkdown, .stText, .stSlider, .stNumberInput, .stSelectbox, label, p, span, div {
             color: white !important;
