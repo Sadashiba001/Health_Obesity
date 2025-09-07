@@ -15,6 +15,11 @@ st.markdown(
         .stApp {
             background-image: url("https://image.slidesdocs.com/responsive-images/slides/0-blue-marketing-business-plan-financial-economy-intelligent-technology-data-multi-purpose-powerpoint-background_d45f9be2d6__960_540.jpg"); 
             background-size: cover;
+            color: white; /* Default text color */
+        }
+
+        .stMarkdown, .stText, .stSlider, .stNumberInput, .stSelectbox, label, p, span, div {
+            color: white !important;
         }
 
         div.stButton > button:first-child {
