@@ -17,6 +17,14 @@ st.markdown(
             background-size: cover;
             color: white; /* Default text color */
         }
+         
+        div[data-baseweb="select"] span {
+            color: black !important;
+        }
+        
+        div[data-baseweb="select"] div {
+            color: black !important;
+        }
 
         .stMarkdown, .stText, .stSlider, .stNumberInput, .stSelectbox, label, p, span, div {
             color: white !important;
