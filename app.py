@@ -6,14 +6,14 @@ model = joblib.load("knn_heart_model.pkl")
 scaler = joblib.load("heart_scaler.pkl")
 expected_columns = joblib.load("heart_columns.pkl")
 
-st.title("Heart Stroke Prediction by Sadashib😊")
+st.title("Heart Stroke Prediction - by Sadashib")
 st.markdown("Provide the following details to check your heart stroke risk:")
 
 st.markdown(
     """
     <style>
         .stApp {
-            background-image: url("http://cdn.wallpapersafari.com/64/47/1e5hBX.jpg"); 
+            background-image: url("https://image.slidesdocs.com/responsive-images/slides/0-blue-marketing-business-plan-financial-economy-intelligent-technology-data-multi-purpose-powerpoint-background_d45f9be2d6__960_540.jpg"); 
             background-size: cover;
         }
 
